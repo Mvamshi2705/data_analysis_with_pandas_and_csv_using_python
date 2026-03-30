@@ -1,0 +1,8 @@
+match_id,team1,team2,winner,player_of_match,venue,runs,wickets,year
+1,CSK,MI,CSK,Ruturaj Gaikwad,Chennai,180,5,2025
+2,RCB,KKR,KKR,Andre Russell,Bangalore,175,6,2025
+3,MI,SRH,MI,Rohit Sharma,Mumbai,190,4,2025
+4,CSK,RCB,CSK,MS Dhoni,Chennai,160,7,2025
+5,KKR,SRH,SRH,Heinrich Klaasen,Kolkata,200,3,2025
+6,MI,CSK,MI,Suryakumar Yadav,Mumbai,185,5,2025
+7,RCB,SRH,RCB,Virat Kohli,Bangalore,170,6,2025
