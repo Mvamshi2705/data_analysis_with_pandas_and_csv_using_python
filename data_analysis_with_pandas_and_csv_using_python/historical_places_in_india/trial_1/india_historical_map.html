@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_09f936c0b3c1222cad5398fd9bbccef6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_09f936c0b3c1222cad5398fd9bbccef6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_09f936c0b3c1222cad5398fd9bbccef6 = L.map(
+                "map_09f936c0b3c1222cad5398fd9bbccef6",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbe83a7a877f3a42b15d962db7e11856 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fbe83a7a877f3a42b15d962db7e11856.addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+            var marker_20fbf6307b9d0b485d32e5a18fe8078b = L.marker(
+                [27.1751, 78.0421],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_229232fc57b4f72ebc6e5e44bb35cfa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8a623f7a8c9d8a1feda1d8615eb8514 = $(`<div id="html_a8a623f7a8c9d8a1feda1d8615eb8514" style="width: 100.0%; height: 100.0%;"> <b>Taj Mahal</b><br> A white marble mausoleum built by Shah Jahan<br> State: Uttar Pradesh<br> Building: 1632<br> Dynasty: Mughal Empire </div>`)[0];
+                popup_229232fc57b4f72ebc6e5e44bb35cfa6.setContent(html_a8a623f7a8c9d8a1feda1d8615eb8514);
+            
+        
+
+        marker_20fbf6307b9d0b485d32e5a18fe8078b.bindPopup(popup_229232fc57b4f72ebc6e5e44bb35cfa6)
+        ;
+
+        
+    
+    
+            var marker_56b5dff61050f03e65ce7378b2b27a6b = L.marker(
+                [28.6562, 77.241],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_158305a23215e972e0cf5dfbefef916e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d12c5461fa56873bd340e54e7ed66c63 = $(`<div id="html_d12c5461fa56873bd340e54e7ed66c63" style="width: 100.0%; height: 100.0%;"> <b>Red Fort</b><br> Historic fort and residence of Mughal emperors<br> State: Delhi<br> Building: 1648<br> Dynasty: Mughal Empire </div>`)[0];
+                popup_158305a23215e972e0cf5dfbefef916e.setContent(html_d12c5461fa56873bd340e54e7ed66c63);
+            
+        
+
+        marker_56b5dff61050f03e65ce7378b2b27a6b.bindPopup(popup_158305a23215e972e0cf5dfbefef916e)
+        ;
+
+        
+    
+    
+            var marker_b44227c27024bd589cfe1ff8f75bebd6 = L.marker(
+                [28.5244, 77.1855],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_3f0d7c798b3fd9814a0ed582a356513a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ed8462be0dc5b9e01efe8ecd63e2579 = $(`<div id="html_7ed8462be0dc5b9e01efe8ecd63e2579" style="width: 100.0%; height: 100.0%;"> <b>Qutub Minar</b><br> Tallest brick minaret in the world<br> State: Delhi<br> Building: 1193<br> Dynasty: Delhi Sultanate </div>`)[0];
+                popup_3f0d7c798b3fd9814a0ed582a356513a.setContent(html_7ed8462be0dc5b9e01efe8ecd63e2579);
+            
+        
+
+        marker_b44227c27024bd589cfe1ff8f75bebd6.bindPopup(popup_3f0d7c798b3fd9814a0ed582a356513a)
+        ;
+
+        
+    
+    
+            var marker_03f0d0700b821fb7811e9491aaf0d750 = L.marker(
+                [15.335, 76.46],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_0fe3a7af39085be1889860458139173d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8622633f60af62cb6c448d3f36d6959c = $(`<div id="html_8622633f60af62cb6c448d3f36d6959c" style="width: 100.0%; height: 100.0%;"> <b>Hampi</b><br> Ancient village with ruins of Vijayanagara Empire<br> State: Karnataka<br> Building: 1336<br> Dynasty: Vijayanagara Empire </div>`)[0];
+                popup_0fe3a7af39085be1889860458139173d.setContent(html_8622633f60af62cb6c448d3f36d6959c);
+            
+        
+
+        marker_03f0d0700b821fb7811e9491aaf0d750.bindPopup(popup_0fe3a7af39085be1889860458139173d)
+        ;
+
+        
+    
+    
+            var marker_d8b13e9ef968b2e549f706b4ead0cc76 = L.marker(
+                [19.8876, 86.0945],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_823a169a5b884b964d040a4c2a0e3999 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5948db5be1337b3f714944b34a31ecf3 = $(`<div id="html_5948db5be1337b3f714944b34a31ecf3" style="width: 100.0%; height: 100.0%;"> <b>Konark Sun Temple</b><br> 13th century Sun temple famous for architecture<br> State: Odisha<br> Building: 1250<br> Dynasty: Eastern Ganga Dynasty </div>`)[0];
+                popup_823a169a5b884b964d040a4c2a0e3999.setContent(html_5948db5be1337b3f714944b34a31ecf3);
+            
+        
+
+        marker_d8b13e9ef968b2e549f706b4ead0cc76.bindPopup(popup_823a169a5b884b964d040a4c2a0e3999)
+        ;
+
+        
+    
+    
+            var marker_35ddd5f854cc80c1a059b8316fc05191 = L.marker(
+                [20.5519, 75.7033],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_d4dd3fa34f329525310e5dbf869b9074 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b614cd6caf6df6bc8ac3d027e5a78f26 = $(`<div id="html_b614cd6caf6df6bc8ac3d027e5a78f26" style="width: 100.0%; height: 100.0%;"> <b>Ajanta Caves</b><br> Rock cut Buddhist cave monuments<br> State: Maharashtra<br> Building: -200<br> Dynasty: Satavahana Dynasty </div>`)[0];
+                popup_d4dd3fa34f329525310e5dbf869b9074.setContent(html_b614cd6caf6df6bc8ac3d027e5a78f26);
+            
+        
+
+        marker_35ddd5f854cc80c1a059b8316fc05191.bindPopup(popup_d4dd3fa34f329525310e5dbf869b9074)
+        ;
+
+        
+    
+    
+            var marker_fee76e0c60ea6caba49a9ffbb4ca98b5 = L.marker(
+                [20.0268, 75.179],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_85af7ed86c2d662da8e6576eee6d153c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d54868b9d8a3254f0a6ee216d6344b47 = $(`<div id="html_d54868b9d8a3254f0a6ee216d6344b47" style="width: 100.0%; height: 100.0%;"> <b>Ellora Caves</b><br> UNESCO heritage cave temples<br> State: Maharashtra<br> Building: 600<br> Dynasty: Rashtrakuta Dynasty </div>`)[0];
+                popup_85af7ed86c2d662da8e6576eee6d153c.setContent(html_d54868b9d8a3254f0a6ee216d6344b47);
+            
+        
+
+        marker_fee76e0c60ea6caba49a9ffbb4ca98b5.bindPopup(popup_85af7ed86c2d662da8e6576eee6d153c)
+        ;
+
+        
+    
+    
+            var marker_57444081722b15f28f668ea2549c6e07 = L.marker(
+                [12.3052, 76.6552],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_d3806d799cb76b9832367d9ff5acbf0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fe7c95cc749c1c6ad5c28c31814feb1 = $(`<div id="html_5fe7c95cc749c1c6ad5c28c31814feb1" style="width: 100.0%; height: 100.0%;"> <b>Mysore Palace</b><br> Royal residence of Wadiyar dynasty<br> State: Karnataka<br> Building: 1912<br> Dynasty: Wadiyar Dynasty </div>`)[0];
+                popup_d3806d799cb76b9832367d9ff5acbf0b.setContent(html_5fe7c95cc749c1c6ad5c28c31814feb1);
+            
+        
+
+        marker_57444081722b15f28f668ea2549c6e07.bindPopup(popup_d3806d799cb76b9832367d9ff5acbf0b)
+        ;
+
+        
+    
+    
+            var marker_8dae6cce3656af591fda5e651849617f = L.marker(
+                [18.922, 72.8347],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_5bf3012d6418317f06b287faea2dafce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39b24e5275108dc90156794058cf3e7a = $(`<div id="html_39b24e5275108dc90156794058cf3e7a" style="width: 100.0%; height: 100.0%;"> <b>Gateway of India</b><br> Monument built during British Raj<br> State: Maharashtra<br> Building: 1924<br> Dynasty: British Raj </div>`)[0];
+                popup_5bf3012d6418317f06b287faea2dafce.setContent(html_39b24e5275108dc90156794058cf3e7a);
+            
+        
+
+        marker_8dae6cce3656af591fda5e651849617f.bindPopup(popup_5bf3012d6418317f06b287faea2dafce)
+        ;
+
+        
+    
+    
+            var marker_31fc52c201d5f255a0cdd7a086125610 = L.marker(
+                [17.3616, 78.4747],
+                {
+}
+            ).addTo(map_09f936c0b3c1222cad5398fd9bbccef6);
+        
+    
+        var popup_1d295b8cd8abfca2f300b5b186f57744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9923b8a9f3e3a61494de3ca9e1ac5b1b = $(`<div id="html_9923b8a9f3e3a61494de3ca9e1ac5b1b" style="width: 100.0%; height: 100.0%;"> <b>Charminar</b><br> Mosque and monument built in Hyderabad<br> State: Telangana<br> Building: 1591<br> Dynasty: Qutb Shahi Dynasty </div>`)[0];
+                popup_1d295b8cd8abfca2f300b5b186f57744.setContent(html_9923b8a9f3e3a61494de3ca9e1ac5b1b);
+            
+        
+
+        marker_31fc52c201d5f255a0cdd7a086125610.bindPopup(popup_1d295b8cd8abfca2f300b5b186f57744)
+        ;
+
+        
+    
+</script>
+</html>
